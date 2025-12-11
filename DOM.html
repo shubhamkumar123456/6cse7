@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nobis!</h1>
+    <ul class="list">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <ul class="list">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <ul class="list">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <ul class="list">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <ul class="list">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <ul class="list">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <ul class="list">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <h1 id="demo2"></h1>
+    <script>
+        let x = document.getElementById('demo');
+        console.log(x)
+        x.style.backgroundColor = 'red'
+
+        let y = document.getElementsByClassName('list')  //[]
+        console.log(y)  //[ul, ul, ul, ul, ul, ul, ul]
+        console.log(y[0])
+        // y[0].style.backgroundColor = 'goldenrod'
+        // y[1].style.backgroundColor = 'goldenrod'
+        // y[2].style.backgroundColor = 'goldenrod'
+        // y[3].style.backgroundColor = 'goldenrod'
+        // y[4].style.backgroundColor = 'goldenrod'
+
+        for(let i=0; i<y.length; i++){
+            // console.log(i)
+            // console.log(y[i])
+             y[i].style.backgroundColor = 'goldenrod'
+        }
+
+        // write using javascript --> .innerHTML, .innerText, .textContent
+
+        let a = document.getElementById('demo2');
+        console.log(a)
+        // a.innerHTML = ' hello this is text'
+        // a.innerText = ' hello this is text'
+        a.textContent = ' hello this is text'
+        
+    </script>
+</body>
+</html>
