@@ -4,7 +4,7 @@
 
 // 
 
-
+// Difference B/w let  var and const
 // let -->
 // let x = 10;
 // let x = 5 //redeclare
@@ -17,11 +17,11 @@
 
 // var x = 10;
 // var x = 9;
-// console.log(x)
+// console.log(x)  //redeclare possible
 
 // var x = 10 ;
 // x = 2;
-// console.log(x)
+// console.log(x) //reassign possible
 
 
 // const x = 10;
@@ -37,3 +37,12 @@
 // Undefined --> it is a default value used by java script when variable is declared but its value is not assigned it will give undefined
 
 // Null --> it is a user defined value which is equal to nothing
+
+
+
+
+
+
+
+
+
