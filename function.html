@@ -70,12 +70,56 @@
 
     // Timer Function --> setTimeOut , setInterval 
 
-     function one(){
-            console.log("this is one")
-        }
+    //  function one(){
+    //         console.log("this is one")
+    //     }
 
-        // setInterval(one,2000)
-        setTimeout(one,2000)
+    //     // setInterval(one,2000)
+    //     setTimeout(one,2000)
+
+
+
+
+    // console.log("one")
+    // console.log("two")
+    // console.log("three")
+
+    // setTimeout(()=>{
+    //     console.log("dukaan pr gye")
+    // } , 5000)
+
+    // setTimeout(()=>{
+    //     console.log("tofee khareedi")
+    // } , 2000)
+
+    // setTimeout(()=>{
+    //     console.log("ghar waps aa gye")
+    // } ,1000)
+
+
+    function A(b,c){
+          setTimeout(()=>{
+        console.log("dukaan pr gye")
+            b(c)
+        } , 5000)
+    }
+
+    function B(c){
+        setTimeout(()=>{
+        console.log("tofee khareedi")
+        c()
+    } , 2000)
+    }
+
+    function C(){
+         setTimeout(()=>{
+        console.log("ghar waps aa gye")
+    } ,1000)
+    }
+
+   A(B, C)
+
+
 
     </script>
 </body>
