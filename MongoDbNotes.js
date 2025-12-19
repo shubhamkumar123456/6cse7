@@ -16,6 +16,11 @@
     // b) update multiple Data -->db.collectionName.updateMany({key, value}  ,{$set:{key: value}})
 
 
+
+    // filterProducts -->  gte , lte,  lt , gt, ne, eq
+    // example --> db.collectionName.find( {price: {$gte:40000}})
+
+
             
 
 
